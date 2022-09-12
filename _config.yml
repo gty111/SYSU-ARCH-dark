@@ -2,8 +2,6 @@ remote_theme: just-the-docs/just-the-docs
 
 title: SYSU-ARCH 
 description: Welcome to SYSU-ARCH's homepage
-baseurl: "/SYSU-ARCH"
-url: "https://gty111.github.io"
 
 logo: "/assets/images/ARSYSU.png"
 
