@@ -22,19 +22,3 @@ After finishing SYSU-ARCH, you will learn
 
 {: .highlight}
 > reference [GEM5 101](https://www.gem5.org/documentation/learning_gem5/gem5_101/)(add **changes** to fit current version of GEM5 and new ideas)
-
-<button class="btn js-toggle-dark-mode">Dark Mode</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Dark Mode';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Light Mode';
-  }
-});
-</script>
