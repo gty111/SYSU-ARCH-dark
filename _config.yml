@@ -5,7 +5,7 @@ description: Welcome to SYSU-ARCH's homepage
 baseurl: "/SYSU-ARCH"
 url: "https://gty111.github.io"
 
-logo: assets/images/logo.png
+logo: "/assets/images/ARSYSU.png"
 
 callouts_level: quiet
 callouts:
