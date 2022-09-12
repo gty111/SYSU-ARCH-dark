@@ -13,3 +13,5 @@ callouts:
     color: green
   question:
     color: red
+
+footer_content: "Supported by <a href=\"https://gty111.github.io\">TianYu GUO</a>"
