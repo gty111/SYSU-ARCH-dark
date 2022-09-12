@@ -36,7 +36,8 @@ GEMM is general Matrix Multiply.
 
 You will implement GEMM using [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) (CUDA is a general-purpose parallel computing platform and programming model proposed by NVIDIA). And you need to check the output is right in your way.
 
-`Hint` You can simulate your program in GPGPU-SIM, though you did't have NVIDIA GPUs. The input size is up to you.
+{: .highlight}
+> `Hint` You can simulate your program in GPGPU-SIM, though you did't have NVIDIA GPUs. The input size is up to you.
 
 ## Submit
 

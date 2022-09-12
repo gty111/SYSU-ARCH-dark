@@ -1,8 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 
-title: SYSU ARCH 
-description: Welcome to SYSU's homepage
-
+title: SYSU-ARCH 
+description: Welcome to SYSU-ARCH's homepage
 
 callouts_level: quiet
 callouts:
