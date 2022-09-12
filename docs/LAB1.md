@@ -4,15 +4,24 @@ title: I.Familiar with GEM5
 nav_order: 3
 ---
 
-## I Familiar with GEM5
+# I Familiar with GEM5
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
+
 
 Freely read something about GEM5 on its [web page](https://www.gem5.org/).
 
-### I.1 [Build GEM5](https://www.gem5.org/documentation/general_docs/building)
+## I.1 [Build GEM5](https://www.gem5.org/documentation/general_docs/building)
 
 Recommend [using Docker](https://www.docker.com/)
 
-#### I.1.1 Install Docker
+### I.1.1 Install Docker
 
 For windows, [install wsl](https://docs.microsoft.com/zh-cn/windows/wsl/install) first by using
 
@@ -29,7 +38,7 @@ then [download Docker Desktop for Windows](https://docs.docker.com/desktop/insta
 
 For other systems, reference [this](https://docs.docker.com/desktop/).
 
-#### I.1.2 Build GEM5 with Docker
+### I.1.2 Build GEM5 with Docker
 
 First,obtain GEM5 image
 
@@ -63,18 +72,18 @@ docker exec -it <container> /bin/bash
 {: .question}
 > `Question 1`: What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?
 
-### I.2 Write an insteresting app(sieve)
+## I.2 Write an insteresting app(sieve)
 
 Write a program that outputs one single integer at the end `the number of prime numbers <= N`(at default N = 100,000,000) . Compile your program as a static binary. Note that your program must achieve O(N) complexity.
 
-#### I.2.1 Test sieve
+### I.2.1 Test sieve
 
 You need to test your sieve program by building a `benchmark` program to validate its correctness and time complexity.
 
 {: .highlight}
 > `Hint` How to validate its time complexity ?
 
-### I.3 Use GEM5
+## I.3 Use GEM5
 
 - Run your sieve program in GEM5
   
@@ -95,7 +104,7 @@ You need to test your sieve program by building a `benchmark` program to validat
 {: .question}
 > `Question 2`: In each output, does `system.cpu.numCycles` times `system.clk_domain.clock` equals `simTicks` ? Why ?
 
-### I.4 Submit
+## I.4 Submit
 
 - Your config file (.py)
 

@@ -4,7 +4,15 @@ title: III.Hotspot Analysis
 nav_order: 5
 ---
 
-## III Hotspot Analysis
+# III Hotspot Analysis
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
 
 The DAXPY loop (double precision aX + Y) is an oft used operation in programs that work with matrices and vectors. The following code implements DAXPY in C++11.
 
@@ -52,7 +60,7 @@ Run your modified DAXPY program in GEM5 and see what happens in the output.
 {: .question}
 > `Question 4` : What is the difference in the output after you add `m5_dump_reset_stats(<arg1>,<arg2>)` ?
 
-### III.1 Submit
+## III.1 Submit
 
 - Your solution to correctly compile modified DAXPY program
 

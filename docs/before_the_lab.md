@@ -4,7 +4,7 @@ title: Before the LAB
 nav_order: 2
 ---
 
-## Before the LAB
+# Before the LAB
 
 **There is some points you need to mind**
 

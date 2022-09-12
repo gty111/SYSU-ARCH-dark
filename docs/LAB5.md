@@ -4,12 +4,20 @@ title: V.Explore GEMM and GPGPU-SIM (optional)
 nav_order: 7
 ---
 
-## V Explore GEMM and GPGPU-SIM `optional`
+# V Explore GEMM and GPGPU-SIM `optional`
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
 
 {: .highlight}
 > This part of Lab is optional
 
-### V.1 Build [GPGPU-SIM](http://www.gpgpu-sim.org/)
+## V.1 Build [GPGPU-SIM](http://www.gpgpu-sim.org/)
 
 {: .highlight}
 > `dev` TODO using docker
@@ -22,7 +30,7 @@ GPGPU-SIM is a simulator for CUDA program. GPGPU-SIM is a little outdated from G
   
   - [use GPGPU-SIM](https://blog.csdn.net/gtyinstinct/article/details/126075885)
 
-### V.2 Implement GEMM
+## V.2 Implement GEMM
 
 GEMM is general Matrix Multiply.
 
@@ -30,7 +38,7 @@ You will implement GEMM using [CUDA](https://docs.nvidia.com/cuda/cuda-c-program
 
 `Hint` You can simulate your program in GPGPU-SIM, though you did't have NVIDIA GPUs. The input size is up to you.
 
-### V.3 Submit
+## V.3 Submit
 
 - Your solutions to implement GEMM
 
