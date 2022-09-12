@@ -3,6 +3,8 @@ remote_theme: just-the-docs/just-the-docs
 title: SYSU-ARCH 
 description: Welcome to SYSU-ARCH's homepage
 
+logo: "/asserts/images/logo.png"
+
 callouts_level: quiet
 callouts:
   highlight:

@@ -19,7 +19,7 @@ Freely read something about GEM5 on its [web page](https://www.gem5.org/).
 
 ## [Build GEM5](https://www.gem5.org/documentation/general_docs/building)
 
-Recommend [using Docker](https://www.docker.com/)
+Recommend using [Docker](https://www.docker.com/)
 
 ### Install Docker
 
