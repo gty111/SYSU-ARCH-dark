@@ -58,7 +58,7 @@ docker run -itd -v <gem5 directiory>:/gem5 <image>
 {: .highlight}
 > using `docker images` to get info about `<image>`
 > 
-> using `git clone https://github.com/gem5/gem5.git` to get gem5
+> using `git clone -b v22.0.0.2 https://github.com/gem5/gem5.git` to get gem5
 
 Then,connect to the container
 
