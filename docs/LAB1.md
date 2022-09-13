@@ -14,6 +14,8 @@ nav_order: 3
 {:toc}
 ---
 
+{: .outline}
+> At this part, you will learn installation and use of GEM5
 
 Freely read something about GEM5 on its [web page](https://www.gem5.org/).
 

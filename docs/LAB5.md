@@ -14,6 +14,8 @@ nav_order: 7
 {:toc}
 ---
 
+{: .outline}
+> At this part, you will tune GEMM and learn the basic use of GPGPU-SIM
 
 ## Build [GPGPU-SIM](http://www.gpgpu-sim.org/)
 

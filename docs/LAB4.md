@@ -14,6 +14,9 @@ nav_order: 6
 {:toc}
 ---
 
+{: .outline}
+> At this part, you will learn to implement a cache replacement policy
+
 ## NMRU
 
 Replace the cache block randomly but not the recently used cache block.

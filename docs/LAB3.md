@@ -14,6 +14,9 @@ nav_order: 5
 {:toc}
 ---
 
+{: .outline}
+> At this part, you will learn how to reset the output status in GEM5.
+
 The DAXPY loop (double precision aX + Y) is an oft used operation in programs that work with matrices and vectors. The following code implements DAXPY in C++11.
 
 ```cpp

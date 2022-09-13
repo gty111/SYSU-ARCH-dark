@@ -14,7 +14,8 @@ nav_order: 4
 {:toc}
 ---
 
-At this part, you will implement a missing x87 instruction (FSUBR).
+{: .outline}
+At this part, you will implement a missing x87 instruction (FSUBR) in GEM5.
 
 `Hint` : You need to modify `src/arch/x86/isa/decoder/x87.isa` and `src/arch/x86/isa/insts/x87/arithmetic/subtraction.py` to implement FSUBR
 
