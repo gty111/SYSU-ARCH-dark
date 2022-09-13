@@ -15,7 +15,7 @@ nav_order: 6
 ---
 
 {: .outline}
-> At this part, you will learn to implement a cache replacement policy
+> At this part, you will learn to implement a cache replacement policy in GEM5
 
 ## NMRU
 
