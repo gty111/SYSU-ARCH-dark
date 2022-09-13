@@ -7,9 +7,7 @@ nav_order: 1
 # SYSU-ARCH
 
 {: .highlight}
-> `dev`what to name exp
-> 
-> this is the dev version of SYSU-ARCH
+> version 2022F
 
 SYSU-ARCH is a LAB that focus on the use and extending of simulators.
 

@@ -14,9 +14,6 @@ nav_order: 4
 {:toc}
 ---
 
-{: .highlight}
-> `dev`implement more insts ?
-
 At this part, you will implement a missing x87 instruction (FSUBR).
 
 `Hint` : You need to modify `src/arch/x86/isa/decoder/x87.isa` and `src/arch/x86/isa/insts/x87/arithmetic/subtraction.py` to implement FSUBR
