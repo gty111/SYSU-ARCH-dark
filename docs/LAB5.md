@@ -23,8 +23,11 @@ GPGPU-SIM is a simulator for CUDA program. GPGPU-SIM is a little outdated from G
 
 Due to the complexity of building GPGPU-SIM, we provide a docker image that you can use dircetly. The image include prebuilt GPGPU-SIM by spack. 
 ```
-docker pull `dev`TOADD
+docker pull gtyinstinct/gpgpu-sim:spack
 ```
+
+{: .highlight}
+> if you feel the image is too big(about 7GB), you can [build it on your own](https://github.com/gty111/sysu-scc-spack-repo)
 
 ## Tips about GPGPU-SIM 
 
