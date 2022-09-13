@@ -12,4 +12,4 @@ nav_order: 2
 
 - GEM5 provides two ways of simulation (SE/FS). In this LAB, we only need to use **SE** mode.
 
-- In addition to submitting your program, you need to provide introduction about how to use it at some times.
+- visit [this](https://github.com/gty111/SYSU-ARCH-submit) to submit your work
