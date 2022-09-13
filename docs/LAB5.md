@@ -26,6 +26,26 @@ Due to the complexity of building GPGPU-SIM, we provide a docker image that you 
 docker pull gtyinstinct/gpgpu-sim:spack
 ```
 
+### Usage of the docker image
+
+- to activate spack env
+
+```
+. /opt/spack/share/spack/setup-env.sh
+```
+
+- to find installed package
+
+```
+spack find 
+```
+
+- to load installed package
+
+```
+spack load <package name@package version>
+```
+
 {: .highlight}
 > if you feel the image is too big(about 3GB), you can [build it on your own](https://github.com/gty111/sysu-scc-spack-repo)
 
