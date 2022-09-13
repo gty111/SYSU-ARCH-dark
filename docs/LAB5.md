@@ -1,28 +1,22 @@
 ---
 layout: default
-title: V.Explore GEMM and GPGPU-SIM (optional)
+title: V.Explore GPGPU-SIM and GEMM
 nav_order: 7
 ---
 
-# V Explore GEMM and GPGPU-SIM 
+# V Explore GPGPU-SIM and GEMM
 
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
-
+{:toc}
 ---
 
 
 ## Build [GPGPU-SIM](http://www.gpgpu-sim.org/)
-
-{: .highlight}
-
-> `dev` TODO using docker
 
 GPGPU-SIM is a simulator for CUDA program. GPGPU-SIM is a little outdated from GEM5. But it is still acknowledged by academic field.
 
@@ -45,7 +39,7 @@ docker pull `dev`TOADD
 
 General Matrix Multiply (GEMM) is a common algorithm in linear algebra, machine learning, statistics, and many other domains.  It provides a more interesting trade-off space, as there are many ways to break up the computation. This includes using blocking, inner products, outer products, and systolic array techniques.
 
-At this part of LAB, we provide a GEMM template code of [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html), your task is as follows:
+At this part of LAB, we provide a [GEMM template code](https://github.com/gty111/GPU-benchmark/blob/main/simpleGEMM_LAB.cu) of [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html), your task is as follows:
 
 - simulate GEMM template code in GPGPU-SIM and find out the weakness of it
 - you can do whatever you want for the code surrounded with `TOTUNE` and `TOTUNE end` in order to improve the performance of the GEMM
