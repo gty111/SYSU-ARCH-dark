@@ -27,7 +27,7 @@ docker pull gtyinstinct/gpgpu-sim:spack
 ```
 
 {: .highlight}
-> if you feel the image is too big(about 7GB), you can [build it on your own](https://github.com/gty111/sysu-scc-spack-repo)
+> if you feel the image is too big(about 3GB), you can [build it on your own](https://github.com/gty111/sysu-scc-spack-repo)
 
 ## Tips about GPGPU-SIM 
 
