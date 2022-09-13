@@ -20,7 +20,7 @@ nav_order: 7
 
 GPGPU-SIM is a simulator for CUDA program. GPGPU-SIM is a little outdated from GEM5. But it is still acknowledged by academic field.
 
-### BUild GPGPU-SIM by docker
+### Build GPGPU-SIM by docker
 
 Due to the complexity of building GPGPU-SIM, we provide a docker image that you can use dircetly. The image include prebuilt GPGPU-SIM by spack. 
 ```
