@@ -56,7 +56,3 @@ At this part of LAB, we provide a [GEMM template code](https://github.com/gty111
 - Your solutions to improve the performance of GEMM `optional`
 
 - Answer `Question 6`
-
-
-
-test modify 
