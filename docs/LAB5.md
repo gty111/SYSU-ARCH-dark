@@ -5,7 +5,6 @@ nav_order: 7
 ---
 
 # V Explore GPGPU-SIM and GEMM
-
 {: .no_toc }
 
 ## Table of contents
