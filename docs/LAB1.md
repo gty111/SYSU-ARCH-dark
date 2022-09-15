@@ -72,7 +72,7 @@ docker exec -it <container> /bin/bash
 > using `docker ps` to get info about `<container>`
 
 {: .question}
-> `Question 1`: What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?  `optional`
+> <div>Question 1{: .label} Challenge{: .label}</div>: What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?
 
 ## Write an insteresting app(sieve)
 

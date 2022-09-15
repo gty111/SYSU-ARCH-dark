@@ -12,4 +12,4 @@ nav_order: 2
 
 - GEM5 provides two ways of simulation (SE/FS). In this LAB, we only need to use **SE** mode.
 
-- tag `challenge` means this part of content is a little difficult, you can skip it or do your best to solve it
+- label <div>challenge{: .label}</div> means this part of content is a little difficult, you can skip it or do your best to solve it
