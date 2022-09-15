@@ -10,7 +10,11 @@ callouts:
   highlight:
     color: green
   question:
+    title: Question
     color: red
+  challenge:
+    title: Challenge
+    color: blue
   outline:
     color: yellow
 

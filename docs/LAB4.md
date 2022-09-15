@@ -31,8 +31,8 @@ As `II.1` said, you need to observe how `LRU` is implemented in GEM5.
 
 Run your `sieve` program in GEM5 using NMRU or LRU and see what is the difference in the output.
 
-{: .question}
-> `Question 5`: Can you write a program that runs faster (about 10% speedup) using `<RP1>` instead of `<RP2>` ? (`<RP1>` and `<RP2>` represent different replacement policy in GEM5) `challenge`
+{: .challenge}
+> Can you write a program that runs faster (about 10% speedup) using `<RP1>` instead of `<RP2>` ? (`<RP1>` and `<RP2>` represent different replacement policy in GEM5) `challenge`
 
 ## Submit
 

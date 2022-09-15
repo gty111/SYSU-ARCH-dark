@@ -61,12 +61,10 @@ To use `m5_dump_reset_stats(<arg1>,<arg2>)`, you need to read the `util/m5/READM
 Run your modified DAXPY program in GEM5 and see what happens in the output.
 
 {: .question}
-> `Question 4` : What is the difference in the output after you add `m5_dump_reset_stats(<arg1>,<arg2>)` ?
+> What is the difference in the output after you add `m5_dump_reset_stats(<arg1>,<arg2>)` ?
 
 ## Submit
 
 - Your solution to correctly compile modified DAXPY program
 
 - The output after you add `m5_dump_reset_stats(arg1,arg2)`
-
-- Answer `Question 4`

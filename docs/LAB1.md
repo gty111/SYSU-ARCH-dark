@@ -72,7 +72,7 @@ docker exec -it <container> /bin/bash
 > using `docker ps` to get info about `<container>`
 
 {: .question}
-> <div>Question 1{: .label} Challenge{: .label}</div>: What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?
+> What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?
 
 ## Write an insteresting app(sieve)
 
@@ -109,7 +109,7 @@ You need to test your sieve program by building a `benchmark` program to validat
   - Change the memory configuration from DDR3_1600_x64 to DDR3_2133_x64 (DDR3 with a faster clock)
 
 {: .question}
-> `Question 2`: In each output, does `system.cpu.numCycles` times `system.clk_domain.clock` equals `simTicks` ? Why ?
+> In each output, does `system.cpu.numCycles` times `system.clk_domain.clock` equals `simTicks` ? Why ?
 
 ## Submit
 
@@ -123,7 +123,5 @@ You need to test your sieve program by building a `benchmark` program to validat
 | O3CPU           | 2GHz      | DDR3_2133_x64 |
 
 - Your `sieve` program and corresponding `benchmark` program
-
-- Answer `Question 1(optional) and 2`
 
 - Your solution to changing the CPU model to MinorCPU `challenge`
