@@ -12,6 +12,8 @@ nav_order: 2
 
 - GEM5 provides two ways of simulation (SE/FS). In this LAB, we only need to use **SE** mode.
 
+- GEM5 provides multiple architectures. In this LAB, we use X86.
+
 - Label `challenge` means this part of content is a little difficult, you can skip it or do your best to solve it
 
 - In your report, you should give proper introduction about your work including answering the questions or completing the challenge part and so on.
