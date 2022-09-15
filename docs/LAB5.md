@@ -79,5 +79,3 @@ At this part of LAB, we provide a [GEMM template code](https://github.com/gty111
 
 - The output of simulating GEMM template code in GPGPU-SIM
 
-- Your solutions to improve the performance of GEMM `challenge`
-

@@ -14,4 +14,4 @@ nav_order: 2
 
 - Label `challenge` means this part of content is a little difficult, you can skip it or do your best to solve it
 
-- You should answer questions in your report
+- In your report, you should give proper introduction about your work including answering the questions or completing the challenge part and so on.

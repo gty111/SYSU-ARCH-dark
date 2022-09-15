@@ -101,8 +101,8 @@ You need to test your sieve program by building a `benchmark` program to validat
   
   - change the CPU model from TimingSimpleCPU to O3CPU.
   
-  > {: .highlight}
-  > `Challenge` : Can you change the CPU model to MinorCPU? GEM5 won't compile MinorCPU by default. You need to add some modifications. GEM5 use `CPU_MODELS` as a parameter in the past. Try to search the keyword `CPU_MODELS` and see what you can find out.
+  > {: .challenge}
+  > Can you change the CPU model to MinorCPU? GEM5 won't compile MinorCPU by default. You need to add some modifications. GEM5 use `CPU_MODELS` as a parameter in the past. Try to search the keyword `CPU_MODELS` and see what you can find out.
   
   - Vary the CPU clock from 1GHz to 2GHz (in steps of 1GHz) with both CPU models.
   
@@ -123,5 +123,3 @@ You need to test your sieve program by building a `benchmark` program to validat
 | O3CPU           | 2GHz      | DDR3_2133_x64 |
 
 - Your `sieve` program and corresponding `benchmark` program
-
-- Your solution to changing the CPU model to MinorCPU `challenge`
