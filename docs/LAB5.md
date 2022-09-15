@@ -65,7 +65,7 @@ General Matrix Multiply (GEMM) is a common algorithm in linear algebra, machine 
 At this part of LAB, we provide a [GEMM template code](https://github.com/gty111/GPU-benchmark/blob/main/simpleGEMM_LAB.cu) of [CUDA](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html), your task is as follows:
 
 - simulate GEMM template code in GPGPU-SIM and find out the weakness of it
-- you can do whatever you want with the code except the basic test frame in order to improve the performance of the GEMM
+- you can do whatever you want with the code except the basic test frame in order to improve the performance of the GEMM `challenge`
 
 {: .highlight}
 > `Hint` you can simulate the modified code in GPGPU-SIM to validate the improvement of performance.
@@ -77,6 +77,6 @@ At this part of LAB, we provide a [GEMM template code](https://github.com/gty111
 
 - The output of simulating GEMM template code in GPGPU-SIM
 
-- Your solutions to improve the performance of GEMM `optional`
+- Your solutions to improve the performance of GEMM `challenge`
 
 - Answer `Question 6`

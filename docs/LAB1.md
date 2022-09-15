@@ -19,7 +19,7 @@ nav_order: 3
 
 Freely read something about GEM5 on its [web page](https://www.gem5.org/).
 
-## [Build GEM5](https://www.gem5.org/documentation/general_docs/building)
+## [Build GEM5(click me)](https://www.gem5.org/documentation/general_docs/building)
 
 Recommend using [Docker](https://www.docker.com/)
 
@@ -72,7 +72,7 @@ docker exec -it <container> /bin/bash
 > using `docker ps` to get info about `<container>`
 
 {: .question}
-> `Question 1`: What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?
+> `Question 1`: What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?  `optional`
 
 ## Write an insteresting app(sieve)
 
@@ -94,10 +94,10 @@ You need to test your sieve program by building a `benchmark` program to validat
   > {: .highlight}
   > You should use something large enough that the application is interesting, but not too large that gem5 takes more than 10 minutes to execute a simulation.
   
-  - change the CPU model from TimingSimpleCPU to MinorCPU.
+  - change the CPU model from TimingSimpleCPU to O3CPU.
   
   > {: .highlight}
-  > `Hint` : GEM5 won't compile MinorCPU by default. You need to add some modifications. GEM5 use `CPU_MODELS` as a parameter in the past. Try to execute `grep CPU_MODELS -R YOUR_GEM5_ROOT_DIR --exclude-dir=build` and see what you can find out.
+  > `Challenge` : Can you change the CPU model to MinorCPU? GEM5 won't compile MinorCPU by default. You need to add some modifications. GEM5 use `CPU_MODELS` as a parameter in the past. Try to search the keyword `CPU_MODELS` and see what you can find out.
   
   - Vary the CPU clock from 1GHz to 2GHz (in steps of 1GHz) with both CPU models.
   
@@ -115,8 +115,10 @@ You need to test your sieve program by building a `benchmark` program to validat
 | CPU             | CPU_clock | DRAM          |
 | --------------- | --------- | ------------- |
 | TimingSimpleCPU | 1GHz      | DDR3_1600_x64 |
-| MinorCPU        | 2GHz      | DDR3_2133_x64 |
+| O3CPU           | 2GHz      | DDR3_2133_x64 |
 
-- Your `sieve` program and corresponding `benchmark` program.
+- Your `sieve` program and corresponding `benchmark` program
 
-- Answer `Question 1 and 2`
+- Answer `Question 1(optional) and 2`
+
+- Your solution to changing the CPU model to MinorCPU `challenge`
