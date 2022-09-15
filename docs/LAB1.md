@@ -75,13 +75,6 @@ docker exec -it <container> /bin/bash
 
 Write a program that outputs one single integer at the end `the number of prime numbers <= N`(at default N = 100,000,000) . Compile your program as a static binary. Note that your program must achieve O(N) complexity.
 
-### Test sieve
-
-You need to test your sieve program by building a `benchmark` program to validate its correctness and time complexity.
-
-{: .highlight}
-> `Hint` How to validate its time complexity ?
-
 ## Use GEM5
 - to simulate the program in GEM5, these tutorials may be helpful
 

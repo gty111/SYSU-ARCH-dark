@@ -49,7 +49,7 @@ spack load <package name@package version>
 ```
 
 {: .highlight}
-> if you feel the image is too big(about 3GB), you can [build it on your own](https://github.com/gty111/sysu-scc-spack-repo)
+> If you feel the image is too big(about 3GB), you can [build it on your own](https://github.com/gty111/sysu-scc-spack-repo)
 
 ## Tips about GPGPU-SIM 
 

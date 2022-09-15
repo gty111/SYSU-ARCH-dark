@@ -37,5 +37,3 @@ Run your `sieve` program in GEM5 using NMRU or LRU and see what is the differenc
 ## Submit
 
 - Any file that you made changes to implement NMRU
-
-- Your solution to `Question 5` , including your designed program and the comparison between `<RP1>` and `<RP2>`. `challenge`
