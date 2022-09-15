@@ -71,9 +71,6 @@ docker exec -it <container> /bin/bash
 {: .highlight}
 > using `docker ps` to get info about `<container>`
 
-{: .question}
-> What is the meaning of `-itd -v ...` in `docker run -itd -v <gem5 directiory>:/gem5 <image>` ? What is the difference between `docker run` and `docker exec` ?
-
 ## Write an insteresting app(sieve)
 
 Write a program that outputs one single integer at the end `the number of prime numbers <= N`(at default N = 100,000,000) . Compile your program as a static binary. Note that your program must achieve O(N) complexity.
