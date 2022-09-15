@@ -86,6 +86,11 @@ You need to test your sieve program by building a `benchmark` program to validat
 > `Hint` How to validate its time complexity ?
 
 ## Use GEM5
+- to simulate the program in GEM5, these tutorials may be helpful
+
+  - [create a simple configuration script](https://www.gem5.org/documentation/learning_gem5/part1/simple_config/)
+
+  - [using the default configuration scripts](https://www.gem5.org/documentation/learning_gem5/part1/example_configs/)
 
 - Run your sieve program in GEM5
   
