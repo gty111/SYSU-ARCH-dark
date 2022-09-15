@@ -89,10 +89,11 @@ Write a program that outputs one single integer at the end `the number of prime 
   > {: .highlight}
   > You should use something large enough that the application is interesting, but not too large that gem5 takes more than 10 minutes to execute a simulation.
   
-  - change the CPU model from TimingSimpleCPU to O3CPU.
+  - change the CPU model from X86TimingSimpleCPU to X86MinorCPU.
   
-  > {: .challenge}
-  > Can you change the CPU model to MinorCPU? GEM5 won't compile MinorCPU by default. You need to add some modifications. GEM5 use `CPU_MODELS` as a parameter in the past. Try to search the keyword `CPU_MODELS` and see what you can find out.
+  > {: .highlight}
+  > GEM5 won't compile MinorCPU by default. You need to add some modifications. GEM5 use `CPU_MODELS` as a parameter in the past. Try to search the keyword `CPU_MODELS` and see what you can find out. 
+  > If you search `CPU_MODELS` and you will see it in release-note.md. It tells that you should modify under `arch` dir. To simplify the exp, we give the hint that you should modify `src/arch/x86/X86CPU.py` .
   
   - Vary the CPU clock from 1GHz to 2GHz (in steps of 1GHz) with both CPU models.
   
@@ -109,7 +110,7 @@ Write a program that outputs one single integer at the end `the number of prime 
 
 | CPU             | CPU_clock | DRAM          |
 | --------------- | --------- | ------------- |
-| TimingSimpleCPU | 1GHz      | DDR3_1600_x64 |
-| O3CPU           | 2GHz      | DDR3_2133_x64 |
+| X86TimingSimpleCPU | 1GHz      | DDR3_1600_x64 |
+| X86MinorCPU        | 2GHz      | DDR3_2133_x64 |
 
 - Your `sieve` program and corresponding `benchmark` program
