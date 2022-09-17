@@ -25,7 +25,7 @@ nav_order: 8
 
 Recommend using Docker
 
-{: .hightlight}
+{: .highlight}
 > You may wonder why we(I) recommend using Docker. 
 > Imagine that you need to install many apps and each app rely on different envs (for example, A => gcc8 and B => gcc10). 
 > You will soon find that it's very complicated/impossible to build an env that all apps are compatible with each other.
