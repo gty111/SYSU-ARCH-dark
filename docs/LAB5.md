@@ -17,12 +17,9 @@ nav_order: 7
 {: .outline}
 > At this part, you will tune GEMM and learn the basic use of GPGPU-SIM
 
-{: .highlight}
-> `dev` TODO : change to accelsim(new gen of gpgpu-sim)
+GPGPU-SIM is a simulator for CUDA program. GPGPU-SIM is a little outdated from GEM5. But it is still acknowledged by academic field.
 
 ## Build [GPGPU-SIM](http://www.gpgpu-sim.org/)
-
-GPGPU-SIM is a simulator for CUDA program. GPGPU-SIM is a little outdated from GEM5. But it is still acknowledged by academic field.
 
 ### Build GPGPU-SIM by docker
 
