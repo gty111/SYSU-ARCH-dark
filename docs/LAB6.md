@@ -41,6 +41,9 @@ To get ACCEL-SIM
 git clone -b dev https://github.com/accel-sim/gpu-app-collection.git 
 ```
 
+{: .highlight}
+> How to launch the container with ACCEL-SIM? Try to figure out by reading [LABI](LAB1.md)
+
 To build ACCEL-SIM 
 ```
 # in Docker, <CUDA_DIR>=/usr/local/cuda-11.0
