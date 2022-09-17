@@ -21,4 +21,4 @@ After finishing SYSU-ARCH, you will learn
 {: .highlight}
 > reference [GEM5 101](https://www.gem5.org/documentation/learning_gem5/gem5_101/)(add **changes** to fit current version of GEM5 and new ideas)
 
-## [Dark Mode](https://gty111.github.io/SYSU-ARCH-dark)
+## [Light Mode](https://gty111.github.io/SYSU-ARCH)
