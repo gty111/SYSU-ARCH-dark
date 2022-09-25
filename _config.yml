@@ -20,11 +20,11 @@ callouts:
 
 footer_content: "Supported by <a href=\"https://gty111.github.io\">TianYu GUO</a> and YuHao GU"
 
-color_scheme: light
+color_scheme: dark
 
 aux_links:
-  "Dark Mode":
-    - "//gty111.github.io/SYSU-ARCH-dark"
+  "Light Mode":
+    - "//gty111.github.io/SYSU-ARCH"
 
 nav_external_links:
   - title: arcSYSu on github
